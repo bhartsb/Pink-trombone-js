@@ -32,5 +32,12 @@ module.exports = {
                 presets: ['@babel/env']
             }
         }]
-    }
+    },
+
+    devtool: 'source-map',
+
+    optimization: {
+        minimize: false
+    },
+
 }
